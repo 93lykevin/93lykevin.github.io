@@ -1,0 +1,132 @@
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon {
+    padding: 0px 30px;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.portfolio h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.star {
+    border: 2px solid black;
+    width: 250px;
+    max-width: 250px;
+    text-align: center;
+    margin: auto;
+    border-radius: 5px;
+    background-color: black;
+}
+
+.portfolio-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.project-list {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+.project-list>li>h3 {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-list>li>h3:after {
+    content: "❯";
+    font-size: 80%;
+    color: gray;
+}
+
+.project-tab {
+    padding: 10px 20px;
+}
+
+.project-tab.active {
+    background-color: rgb(237, 237, 237);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.project-tab:hover {
+    background-color: rgb(247, 247, 247);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.project-content>div {
+    display: none;
+}
+
+.project-content>div.active {
+    display: block;
+}
+
+.project-item {
+    margin-left: 20px;
+}
+
+.project-item>.item-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.item-header>* {
+    display: flex;
+}
+
+.item-header>span {
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.item-header>div>a {
+    font-size: 17px;
+    background-color: rgb(27, 27, 27);
+    padding: 2px 5px;
+    margin: 5px 10px 0 0;
+
+}
+
+.product-bullet-list>li {
+    margin-bottom: 15px;
+}
+
+.technologies-used {
+    padding-top: 15px;
+}
+
+.about {
+    align-items: center;
+    padding-top: 20px;
+}
+
+.about-ph {
+    padding-top: 10px;
+}
+
+.what-is-it {
+    color: #1abc9c;
+}
